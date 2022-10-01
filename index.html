@@ -10,21 +10,21 @@
 <body>
         <div class="upperContent">
             <h1>Metric/Imperial Unit Conversion</h1>
-            <div class="box">20</div>
-            <button>Convert</button>
+            <input class="box" type="number" id="input" value="20" min="0" max="99"></input>
+            <button id="convert">Convert</button>
         </div>
         <div class="lowerContent">
             <div class="item">
                 <div class="title">Length (Meter/Feet)</div>
-                <div class="subtitle">20 meters = 65.616 feet | 20 feet = 6.096 meters</div>
+                <div class="subtitle" id="length">20 meters = 65.616 feet | 20 feet = 6.096 meters</div>
             </div>
             <div class="item">
                 <div class="title">Volume (Liters/Gallons)</div>
-                <div class="subtitle">20 liters = 5.284 gallons | 20 gallons = 75.708 liters </div>
+                <div class="subtitle" id="volume">20 liters = 5.284 gallons | 20 gallons = 75.708 liters </div>
             </div>
             <div class="item">
                 <div class="title">Mass (Kilograms/Pounds)</div>
-                <div class="subtitle">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</div>
+                <div class="subtitle" id="mass">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</div>
             </div>
         </div>
 

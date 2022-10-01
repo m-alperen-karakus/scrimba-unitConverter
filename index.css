@@ -31,8 +31,13 @@ h1{
     padding-block: 10px;
     font-weight: 800;
     font-size: 58px;
+    background-color: #6943FF;
+    width:8%;
     color: white;
+    text-align: center;
+    
 }
+.box:focus{ outline: none;}
 button{
     margin-top: 20px;
     background: #FFFFFF;
@@ -43,6 +48,7 @@ button{
     font-size: 16px;
     padding-block: 10px;
     padding-inline: 30px;
+    width: 10%;
 }
 .lowerContent{
     display: flex;
@@ -59,7 +65,7 @@ button{
     flex-direction: column;
     align-items: center;
     padding: 40px 0px;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 .title{
     font-weight: 600;
