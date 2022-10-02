@@ -11,3 +11,5 @@
 * Generate all conversions when user clicks convert
 
 * Round the number down to three decimal places
+
+I deployed this project on netlify = https://mak-unit-conventer.netlify.app
